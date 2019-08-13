@@ -2,8 +2,9 @@
     overflow: hidden;
     position: relative;
     height: 100px;
-    border-bottom-style: solid;
-    border-bottom-color: #949292;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    padding: 10px;
   }
 
 .nav-title {
@@ -12,11 +13,11 @@
     text-decoration: none;
 }
 
-.nav-title.h1 {
+.nav-title>h1 {
     margin-bottom: 10px;
 }
 
-.nav-title.h5 {
+.nav-title>h5 {
     margin-top: 10px;
 }
 

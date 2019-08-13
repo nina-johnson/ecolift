@@ -13,10 +13,43 @@
   color: white;
 }
 
+/* Home */
+.home {
+  margin: 50px auto;
+}
+
 .home-image {
   width: 95%;
   height: 50vh;
   border-style: solid;
   border-width: 2px;
   margin: auto;
+}
+
+/* Services */
+.services {
+  margin: 80px auto;
+  width: 90%;
+}
+
+.service-boxes {
+  display: inline-flex;
+}
+
+.service-box-content {
+  width: 32%;
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.service-image {
+  width: 100%;
+  border-style: dashed;
+}
+
+/* About */
+.about {
+  margin: 80px auto;
+  width: 90%;
 }

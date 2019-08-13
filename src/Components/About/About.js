@@ -5,6 +5,8 @@ class About extends Component {
     render() {
         return (
             <div className="about">
+                <h2>About Mudjacking</h2>
+                
                 <p>
                     Mudjacking is a cost-effective alternative to replacing concrete. Mudjacking or concrete raising can usually be done for less than half the cost of pouring new concrete. Save time, money and the environment.
 
