@@ -1,16 +1,17 @@
 import React from 'react';
+import {HashRouter as Router} from 'react-router-dom';
 import './App.css';
+import Nav from '../Nav/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <header > {/* className="App-header" */}
-        <h1>ECOLIFT</h1>
-        <h5>Concrete Raising & Leveling</h5>
-      </header>
+    <Router>
+      <div className="App">
+        <Nav />
 
-      
-    </div>
+
+      </div>
+    </Router>
   );
 }
 

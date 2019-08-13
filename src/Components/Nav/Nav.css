@@ -1,0 +1,34 @@
+.nav {
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-color: #949292;
+  }
+
+.nav-title {
+    display: inline-block;
+    color: #353232;
+    text-decoration: none;
+}
+
+.nav-title.h1 {
+    margin-bottom: 10px;
+}
+
+.nav-title.h5 {
+    margin-top: 10px;
+}
+
+.nav-right {
+    float: right;
+    margin-right: 20px;
+  }
+
+.nav-link {
+    float: left;
+    color: #353232;
+    padding: 24px 20px;
+    text-decoration: none;
+    margin-top: 35px;
+  }
