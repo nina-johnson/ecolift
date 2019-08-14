@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #282c34;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+p {
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 
 .App-header {
@@ -15,15 +23,23 @@
 
 /* Home */
 .home {
-  margin: 50px auto;
+  margin: 100px auto 0px;
 }
 
 .home-image {
-  width: 95%;
-  height: 50vh;
-  border-style: solid;
-  border-width: 2px;
+  width: 100%;
   margin: auto;
+  overflow: hidden;
+}
+
+.home-image>img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.home>p {
+  width: 75%;
+  margin: 20px auto;
 }
 
 /* Services */
@@ -39,17 +55,47 @@
 .service-box-content {
   width: 32%;
   margin: 10px;
-  border-style: solid;
-  border-width: 1px;
 }
 
 .service-image {
   width: 100%;
-  border-style: dashed;
+  height: 200px;
+  border-style: solid;
 }
 
 /* About */
 .about {
   margin: 80px auto;
   width: 90%;
+}
+
+/* Contact */
+.contact {
+  margin: 80px auto;
+  width: 80%;
+  margin-bottom: 80px;
+}
+
+.contact-left {
+  float: left;
+  text-align: left;
+}
+
+.contact-right {
+  float: right;
+  text-align: right;
+  max-width: 45%;
+}
+
+.contact-input {
+  width: 350px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #282c34;
+}
+
+label {
+  margin: 5px;
 }

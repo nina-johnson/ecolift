@@ -6,7 +6,7 @@ class Home extends Component {
         return (
             <div className="home" >
                 <div className="home-image" >
-                    <p>This will be an image.</p>
+                    <img src="images/truck.jpg" alt="Ecolift truck." />
                 </div>
 
                 <p>

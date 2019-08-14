@@ -6,6 +6,7 @@ import Nav from '../Nav/Nav';
 import Home from '../Home/Home';
 import Services from '../Services/Services';
 import About from '../About/About';
+import Contact from '../Contact/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Home />
         <Services />
         <About />
+        <Contact />
 
 
       </div>
