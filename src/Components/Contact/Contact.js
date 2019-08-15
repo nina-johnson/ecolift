@@ -10,26 +10,21 @@ class Contact extends Component {
 
                 <div className="contact-left">
                     <form>
-                        <label>
-                            Name <br/>
-                            <input type="text" name="name" className="contact-input" />
-                        </label> <br/>
-                        <label>
-                            Email <br/>
-                            <input type="text" name="email" className="contact-input" />
-                        </label> <br/>
-                        <label>
-                            Phone Number <br/>
-                            <input type="text" name="phone" className="contact-input" />
-                        </label> <br/>
-                        <label>
-                            Address <br/>
-                            <textarea type="text" rows="3" name="address" className="contact-input" />
-                        </label> <br/>
-                        <label>
-                            Message <br/>
-                            <textarea type="text" rows="6" name="message" className="contact-input" />
-                        </label> <br/>
+                        <input type="text" name="name" placeholder="Name"
+                            className="contact-input" />
+                            <br/>
+                        <input type="text" name="email" placeholder="Email"
+                            className="contact-input" />
+                            <br/>
+                        <input type="text" name="phone" placeholder="Phone Number"
+                            className="contact-input" />
+                            <br/>
+                        <textarea type="text" rows="3" name="address" placeholder="Address"
+                            className="contact-input" />
+                            <br/>
+                        <textarea type="text" rows="6" name="message" placeholder="Message"
+                            className="contact-input" />
+                            <br/>
 
                         <button type="submit" className="contact-submit-button" >Send</button>
                     </form>

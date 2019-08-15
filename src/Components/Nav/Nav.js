@@ -7,8 +7,8 @@ const Nav = (props) => {
         <div className="nav" >
 
             <Link className="nav-title" to="/home" > {/* className="App-header" */}
-                <h1>ECOLIFT</h1>
-                <h5>Concrete Raising & Leveling</h5>
+                <img src="images/EcoLift_logo.png" alt="EcoLift" />
+                {/* <h5>Concrete Raising & Leveling</h5> */}
             </Link>
 
             <div className="nav-right" >
@@ -20,12 +20,12 @@ const Nav = (props) => {
                     Our Services
                 </Link>
 
-                <Link className="nav-link" to="/faq" >
-                    FAQ
-                </Link>
-
                 <Link className="nav-link" to="/contact" >
                     Contact Us
+                </Link>
+
+                <Link className="nav-link" to="/faq" >
+                    FAQ
                 </Link>
 
             </div>
