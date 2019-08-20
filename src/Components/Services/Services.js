@@ -6,7 +6,7 @@ class Services extends Component {
 
     render() {
         return (
-            <div className="services" >
+            <div id="services" className="services" >
                 <h2>Services</h2>
                 <p>We offer concrete raising services for sidewalks, driveways, patios, garage floors, garage aprons, and warehouse flooring. Our trained and certified technicians perform the work in a safe, clean and professional manner. We stand behind our 2 year warranty.</p>
 

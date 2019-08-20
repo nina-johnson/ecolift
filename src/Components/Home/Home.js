@@ -4,7 +4,7 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="home" >
+            <div id="home" className="home" >
                 <div className="home-image" >
                     <img src="images/truck.jpg" alt="Ecolift truck." />
                 </div>

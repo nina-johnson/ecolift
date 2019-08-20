@@ -1,32 +1,43 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
+// import { Link, withRouter } from 'react-router-dom';
 import './Nav.css';
 
 const Nav = (props) => {
+
+    let scrollToLocation = () => {
+        alert('Clicked! Need to add animation function here.')
+        // $('.navbar-collapse ul li a').on('click', function() {  
+        //     $('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
+        //     return false;
+        // });
+    }
+
+
     return (
         <div className="nav" >
 
-            <Link className="nav-title" to="/home" > {/* className="App-header" */}
+            <a className="nav-title" href="#home" > {/* className="App-header" */}
                 <img src="images/EcoLift_logo.png" alt="EcoLift" />
                 {/* <h5>Concrete Raising & Leveling</h5> */}
-            </Link>
+            </a>
 
             <div className="nav-right" >
-                <Link className="nav-link" to="/about" >
-                    About Mudjacking
-                </Link>
-
-                <Link className="nav-link" to="/services" >
+                <a className="nav-link" href="#services" >
                     Our Services
-                </Link>
+                </a>
 
-                <Link className="nav-link" to="/contact" >
+                <a className="nav-link" href="#about" >
+                    About Mudjacking
+                </a>
+
+                <a className="nav-link" href="#contact" onClick={scrollToLocation} >
                     Contact Us
-                </Link>
+                </a>
 
-                <Link className="nav-link" to="/faq" >
+                {/* This should route to separate page? */}
+                <a className="nav-link" href="#faq" >
                     FAQ
-                </Link>
+                </a>
 
             </div>
 
